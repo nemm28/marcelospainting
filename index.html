@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcelo's Painting LLC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #fff;
+            background-color: #0e2a28;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 50px;
+        }
+        .section {
+            padding: 20px;
+        }
+        .portfolio, .services, .contact {
+            margin: 20px;
+        }
+        .portfolio img {
+            width: 100%;
+            height: auto;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Marcelo's Painting LLC</h1>
+    </header>
+    <div class="section portfolio">
+        <h2>Our Portfolio</h2>
+        <img src="project1.jpg" alt="Project 1">
+        <img src="project2.jpg" alt="Project 2">
+        <!-- Add more images as needed -->
+    </div>
+    <div class="section services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Residential Painting</li>
+            <li>Commercial Painting</li>
+            <li>Interior Painting</li>
+            <li>Exterior Painting</li>
+            <!-- Add more services as needed -->
+        </ul>
+    </div>
+    <div class="section contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
